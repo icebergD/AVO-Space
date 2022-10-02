@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title>AVO Education Space</title>
+	<link rel="stylesheet" href="{% static 'css/lendingStyle.css' %}">
+	
+</head>
+<body tabindex="-1">
+	<div id="svelte">
+		<main class="container main-container" style="">
+			<div class="main flex-center svelte-tj8tyr"><a href="/" class="logo flex-center svelte-tj8tyr"><img style="width: 120px;" src="https://i.ibb.co/qDHwHxg/og-image.png" alt="Logo" class="svelte-tj8tyr"> <span style="color:#34e525;">Education</span>Space</a>
+				<ul class="tabs svelte-tj8tyr">
+					<li class="svelte-tj8tyr"><a href="/tutorials" class="svelte-tj8tyr">Уроки</a> </li>
+					<li class="svelte-tj8tyr"><a href="/donate" class="svelte-tj8tyr">Донат</a> </li>
+					<li class="svelte-tj8tyr"><a href="/merch" class="svelte-tj8tyr">AVO Market Space</a></li>
+				</ul>
+				<nav class="flex-center svelte-tj8tyr">
+					<div class="shift bn-btn svelte-tj8tyr">  *********🥑</div>
+				</nav>
+			</div>
+			{% block content %}
+
+			<div id="canvas_container"></div>
+
+			<div class="main flex-center svelte-10bnpzm">
+				<div class="info svelte-10bnpzm">
+					<h1 class="svelte-10bnpzm">Доступно о космосе</h1>
+					<p class="svelte-10bnpzm">Мы помогаем популяризовать изучение космоса среди детей с помощью игровых механик</p>
+					<div class="buttons flex-center svelte-10bnpzm">
+						<a class="bn-btn btn-tg svelte-10bnpzm" href="/login">Войти</a>
+						<a class="bn-btn btn-tw svelte-10bnpzm" href="/signup">Зарегистрироваться</a>
+					</div>
+				</div> <img src="https://i.ibb.co/ggfh54V/photo-2022-10-02-09-18-09.png" style="width: 500px;" alt="" class="image svelte-10bnpzm">
+			</div>
+
+
+			<div id="ourVision" class="svelte-1q6pzn5"></div>
+			<div class="container flex-center animation svelte-1q6pzn5 hide-left"><img style="width: 500px;" src="https://i.ibb.co/qDHwHxg/og-image.png" alt="" class="svelte-1q6pzn5">
+				<div class="text svelte-1q6pzn5">
+					<h2 class="svelte-1q6pzn5">Наше видение</h2>
+					<p class="svelte-1q6pzn5">
+
+						Наша обязанность — создать быстрый и простой способ обучения детей STEM, а так же мотивировать с помощю AVO токена, которые можно будет обменять на ценные призы, или сделать пожертвование в проекты космических исследований.<br>
+						AVO — это токен, основанный и управляемый сообществом, гарантирующий полную прозрачность на каждом этапе проекта.
+					</p>
+				</div>
+			</div>
+			<section class="animation svelte-1ei9m2c hide-right" id="partners">
+				<div class="swiper-slider-wrapper svelte-1ei9m2c">
+					<div class="swiper-container swiper-container2 swiper-slider svelte-1ei9m2c swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
+						<div class="swiper-wrapper swiper-slider svelte-1ei9m2c" style="transition-duration: 0ms; transform: translate3d(-1140px, 0px, 0px);">
+							
+							<div class="swiper-slide info svelte-1ei9m2c swiper-slide-active swiper-slide-duplicate-next swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 1080px; margin-right: 60px;"></div>
+							<div class="swiper-slide info svelte-1ei9m2c swiper-slide-duplicate swiper-slide-duplicate-active swiper-slide-next" data-swiper-slide-index="0" style="width: 1080px; margin-right: 60px;">
+								<h2 class="svelte-1ei9m2c">Уроки</h2>
+								<p class="svelte-1ei9m2c">Интересный и креативный подход к обучению</p>
+							</div>
+						</div>
+						
+					</div>
+
+				</div>
+				<div class="link  svelte-1ei9m2c">
+					<div class="container svelte-1ei9m2c">
+						<div class="social svelte-1ei9m2c">
+							<img style="width:500px; border-radius:20px;" src="https://vse-kursy.com/uploads/posts/2019-05/1557414731_working-3406785_1920.jpg" alt="" class="svelte-1ei9m2c">
+						</div>
+						<h3 class="title svelte-1ei9m2c">Видеоуроки</h3>
+						<p class="svelte-1ei9m2c">Анимационая видео подача маетриала</p>
+					</div>
+					<div class="container svelte-1ei9m2c">
+						<div class="social svelte-1ei9m2c">
+							<img style="width:500px; border-radius:20px;" src="https://i.ibb.co/HdP4dLw/image.jpg" alt="" class="svelte-1ei9m2c">
+						</div>
+						<h3 class="title svelte-1ei9m2c">Игры и задачи</h3>
+						<p class="svelte-1ei9m2c">Интерактивное взаимодействие</p>
+					</div>
+
+				</div>
+				<div class="buttons flex-center info svelte-10bnpzm ">
+						<a class="bn-btn my-margin-top" href="/tutorials">Начать обучение</a>
+				</div>
+			</section>
+			<section class="animation svelte-10x01ne hide-right">
+				<h2 class="title svelte-10x01ne">AVO Market Space</h2>
+				<div class="partners-slider-wrapper svelte-10x01ne">
+					<div class="swiper-container swiper-container4 partners-slider svelte-10x01ne swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
+						<div class="swiper-wrapper svelte-10x01ne" style="transition-duration: 0ms; transform: translate3d(-1140px, 0px, 0px);">
+							<a class="swiper-slide partners-slider__item svelte-10x01ne swiper-slide-duplicate swiper-slide-duplicate-active" href="/merch" data-swiper-slide-index="0" style="width: 225px; margin-right: 60px;">
+								<img src="https://img8.playprint.ru/products/men-hoodie-oversize/7/6/8/768358/F2Xv2bhubWZy9mvRdVVplWZtSc16Z2bydWlxLmZh5jLtTbc0M2Uw.jpg" alt="Image" class="svelte-10x01ne">
+							</a>
+							<a class="swiper-slide partners-slider__item svelte-10x01ne swiper-slide-duplicate swiper-slide-duplicate-next" href="/merch" data-swiper-slide-index="1" style="width: 225px; margin-right: 60px;">
+								<img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-256.png" alt="Image" class="svelte-10x01ne">
+							</a>
+							<a class="swiper-slide partners-slider__item svelte-10x01ne swiper-slide-duplicate" href="/merch" data-swiper-slide-index="2" style="width: 225px; margin-right: 60px;">
+								<img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-256.png" alt="Image" class="svelte-10x01ne">
+							</a>
+							<a class="swiper-slide partners-slider__item svelte-10x01ne swiper-slide-duplicate swiper-slide-prev" href="/merch" data-swiper-slide-index="3" style="width: 225px; margin-right: 60px;">
+								<img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-256.png" alt="Image" class="svelte-10x01ne">
+							</a>
+							<a class="swiper-slide partners-slider__item svelte-10x01ne swiper-slide-active" href="/merch" data-swiper-slide-index="0" style="width: 225px; margin-right: 60px;">
+								<img src="https://printonator.ru/static/store/395/pic/pic1navy.jpg" style="border-radius:20px; width:250px" alt="Image" class="svelte-10x01ne">
+							</a>
+							<a class="swiper-slide partners-slider__item svelte-10x01ne swiper-slide-next" href="/merch" data-swiper-slide-index="1" style="width: 225px; margin-right: 60px;">
+								<img src="https://i.moyo.ua/55aec978-af5b-4da3-9655-8ddd8460efaf/https://img.moyo.ua/img/products/5139/99_4000.jpeg/w_1500,h_1500,r_inside,imdt" style="border-radius:20px; width:250px" alt="Image" class="svelte-10x01ne">
+							</a>
+							<a class="swiper-slide partners-slider__item svelte-10x01ne" href="/merch" data-swiper-slide-index="2" style="width: 225px; margin-right: 60px;">
+								<img src="https://fandomir.ru/wa-data/public/shop/products/73/85/68573/images/176270/176270.970x970@2x.JPG" style="border-radius:20px; width:250px" alt="Image" class="svelte-10x01ne">
+							</a>
+							<a class="swiper-slide partners-slider__item svelte-10x01ne swiper-slide-duplicate-prev" href="/merch" data-swiper-slide-index="3" style="width: 225px; margin-right: 60px;">
+								<img src="https://img8.playprint.ru/products/men-hoodie-oversize/7/6/8/768358/F2Xv2bhubWZy9mvRdVVplWZtSc16Z2bydWlxLmZh5jLtTbc0M2Uw.jpg" style="border-radius:20px;" alt="Image" class="svelte-10x01ne">
+							</a>
+
+							
+						</div>
+					</div>
+
+				</div>
+				<div class="buttons flex-center info svelte-10bnpzm ">
+						<a class="bn-btn my-margin-top" href="/merch">Больше</a>
+				</div>
+			</section>
+
+<!--			<div id="tokenomics" class="svelte-1t0q43w"></div>-->
+<!--			<div class="container animation svelte-1t0q43w hide">-->
+<!--				<h2 class="title flex-center svelte-1t0q43w">Tokenomics</h2>-->
+<!--				<div class="text flex-center token svelte-1t0q43w">-->
+<!--					<div class="chart svelte-1t0q43w">-->
+<!--						<div class="img svelte-1t0q43w">-->
+<!--							<div class="svelte-1t0q43w">10%</div> <img src="https://i.ibb.co/qDHwHxg/og-image.png" style="width: 100px;" alt="" class="svelte-1t0q43w">-->
+<!--						</div>-->
+<!--						<div class="img svelte-1t0q43w">-->
+<!--							<div class="svelte-1t0q43w">40%</div> <img src="https://i.ibb.co/qDHwHxg/og-image.png" style="width: 100px;" alt="" class="svelte-1t0q43w">-->
+<!--						</div>-->
+<!--						<div class="img svelte-1t0q43w">-->
+<!--							<div class="svelte-1t0q43w">31%</div> <img src="https://i.ibb.co/qDHwHxg/og-image.png" style="width: 100px;" alt="" class="svelte-1t0q43w">-->
+<!--						</div>-->
+<!--						<div class="img svelte-1t0q43w">-->
+<!--							<div class="svelte-1t0q43w">6%</div> <img src="https://i.ibb.co/qDHwHxg/og-image.png" style="width: 100px;" alt="" class="svelte-1t0q43w">-->
+<!--						</div>-->
+<!--						<div class="img svelte-1t0q43w">-->
+<!--							<div class="svelte-1t0q43w">13%</div> <img src="https://i.ibb.co/qDHwHxg/og-image.png" style="width: 100px;" alt="" class="svelte-1t0q43w">-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="left svelte-1t0q43w">-->
+<!--						<p class="svelte-1t0q43w"><span class="dot svelte-1t0q43w" style="background-color: #7A4CFC;"></span> <span class="svelte-1t0q43w">Burner Wallet 10%</span></p>-->
+<!--						<p class="svelte-1t0q43w"><span class="dot svelte-1t0q43w" style="background-color:  #FF921F;;"></span> <span class="svelte-1t0q43w">Presale Tokens 40%</span></p>-->
+<!--						<p class="svelte-1t0q43w"><span class="dot svelte-1t0q43w" style="background-color: #1DA1F2;"></span> <span class="svelte-1t0q43w">Locked Liquidity Tokens 31%</span></p>-->
+<!--						<p class="svelte-1t0q43w"><span class="dot svelte-1t0q43w" style="background-color: #27AE60;"></span> <span class="svelte-1t0q43w">Marketing Wallet 6%</span></p>-->
+<!--						<p class="svelte-1t0q43w"><span class="dot svelte-1t0q43w" style="background-color: #EB5757;"></span> <span class="svelte-1t0q43w">13% Team / Brand Ambassadors / Advisors - Locked and vested monthly</span></p>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+
+
+		</main>
+		{% endblock content %}
+		<footer class="container flex-center svelte-oal1yx"><a href="/" class="logo flex-center svelte-oal1yx"><img style="width: 120px;" src="https://i.ibb.co/qDHwHxg/og-image.png" alt="Logo" class="svelte-tj8tyr"> <span style="color:#34e525;">Education</span>Space</a>
+			<ul class="tabs flex-center svelte-oal1yx">
+				<li class="svelte-oal1yx"><a href="/tutorials" class="svelte-oal1yx">Уроки</a> </li>
+				<li class="svelte-oal1yx"><a href="/donate" class="svelte-oal1yx">Донат</a> </li>
+				<li class="svelte-oal1yx"><a href="/merch" class="svelte-oal1yx">AVO Market Space</a> </li>
+			</ul>
+			<div class="social flex-center svelte-oal1yx">
+				<a href="https://www.youtube.com/" target="_blank" class="svelte-oal1yx">
+					<img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Youtube_colored_svg-1024.png" alt="" width="30" height="30" class="svelte-oal1yx"> 
+				</a>
+				<a href="https://twitter.com/" target="_blank" class="svelte-oal1yx">
+					<img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-1024.png" alt="" width="30" height="30" class="svelte-oal1yx"> 
+				</a>
+				<a href="https://www.instagram.com/" target="_blank" class="svelte-oal1yx">
+					<img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-1024.png" alt="" width="30" height="30" class="svelte-oal1yx"> 
+				</a>
+			</div>
+			<a style="margin-top: 20px;" class="svelte-oal1yx">Сотрудничество телеграм: @b4gid</a>
+
+			<p class="svelte-oal1yx">© 2022 AvacadOS AVO Education Space | Все права защищены.</p>
+		</footer>
+		<div id="svelte-announcer" aria-live="assertive" aria-atomic="true" class="svelte-1j55zn5"></div>
+	</div>
+
+</body>
+</html>
